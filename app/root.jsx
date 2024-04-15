@@ -36,7 +36,7 @@ export function Layout({ children }) {
             </head>
             <body>
                 <NavBar />
-                {children}
+                <main className='h-screen'>{children}</main>
                 <Footer />
                 <ScrollRestoration />
                 <Scripts />
