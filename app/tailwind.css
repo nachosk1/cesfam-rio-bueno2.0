@@ -2,8 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-.text_footer {
-    @apply text-slate-400 font-medium text-lg mb-3;
+.text-heading {
+    @apply text-[24px] leading-[3rem] md:text-[40px] text-third font-medium;
 }
 
+.text-subtitle {
+    @apply text-lg lg:text-xl font-semibold text-gray-700;
+}
 
+.text-subtitle-primary {
+    @apply text-lg font-semibold text-primary;
+}
+
+.text-description {
+    @apply text-sm text-gray-600;
+    @apply md:text-base;
+}
+
+.footer__links {
+    @apply grid gap-10 w-full xl:justify-items-end;
+    @apply sm:grid-cols-2 md:gap-8;
+    @apply lg:grid-cols-4;
+}
+
+.footer__link {
+    @apply flex flex-col gap-6 text-base;
+}
