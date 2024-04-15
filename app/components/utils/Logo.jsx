@@ -1,16 +1,23 @@
-import React from 'react';
 import Picture from './Picture';
 
-export default function Logo({ width, height }) {
+export default function Logo({ type = 'short' }) {
+    const isLarge = type === 'large';
+
     return (
         <div>
-            <Picture
-                url={"/home/logo.png"}
-                alt={"Logo"}
-                style={'aspect-square w-full rounded object-contain'}
-                width={width}
-                height={height}
-            />
+            {isLarge ? (
+                <Picture
+                    url={'/home/logo.png'}
+                    alt={'Large Logo'}
+                    style={'aspect-square object-contain w-40 h-20'}
+                />
+            ) : (
+                <Picture
+                    url={'/home/logo.png'}
+                    alt={'Small Logo'}
+                    style={'aspect-square object-contain w-28 h-14'}
+                />
+            )}
         </div>
     );
 }
