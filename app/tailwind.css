@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text_footer {
+    @apply text-slate-400 font-medium text-lg mb-3;
+}
+
+
