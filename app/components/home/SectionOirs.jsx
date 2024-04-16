@@ -26,7 +26,7 @@ export default function SectionOirs() {
             </div>
             <div className="order-1 md:order-2">
                 <Picture
-                    url={'/home/image-oirs.png'}
+                    url={'/home/image-oirs.webp'}
                     alt="Oficina de Información, Reclamos y Sugerencias"
                     style="w-full"
                 />

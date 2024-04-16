@@ -32,7 +32,7 @@ export function ImageHere() {
     return (
         <div className="flex justify-center">
             <Picture
-                url={'/home/image-here.png'}
+                url={'/home/image-here.webp'}
                 alt="Imagen donde quieres ir"
                 style="w-[300px] sm:w-[400px] xl:w-full"
             />

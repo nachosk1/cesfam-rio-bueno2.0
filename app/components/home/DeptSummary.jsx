@@ -5,9 +5,6 @@ import { clinic } from '../../../constant';
 export default function DeptSummary() {
     const [activeIndex, setActiveIndex] = useState(0);
     const [displayInfo, setDisplayInfo] = useState(clinic[0]);
-    {
-        /* cambia en medio segundo */
-    }
     useEffect(() => {
         const timer = setTimeout(() => {
             setDisplayInfo(clinic[activeIndex]);
@@ -17,7 +14,7 @@ export default function DeptSummary() {
     }, [activeIndex]);
 
     return (
-        <section className="">
+        <section>
             <div className="flex flex-col md:flex-row">
                 <div className="flex w-full gap-1 md:gap-2 items-stretch">
                     {clinic.map((image, index) => (

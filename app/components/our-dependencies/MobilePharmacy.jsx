@@ -8,18 +8,18 @@ export default function MobilePharmacy() {
             </h2>
             <div>
                 <div className="flex justify-between gap-8">
-                    <div className="relative w-full h-[400px] rounded-lg overflow-hidden">
+                    <div className="relative w-full rounded-lg overflow-hidden">
                         <Picture
                             url="/posta/farmacia-movil.jpeg"
                             alt="Farmacia móvil"
-                            style="transition duration-500 ease-in-out transform hover:scale-110"
+                            style="transition duration-500 ease-in-out transform hover:scale-110 h-full lg:h-[400px] w-full"
                         />
                     </div>
-                    <div className="relative w-full h-[400px] rounded-lg overflow-hidden">
+                    <div className="relative w-full rounded-lg overflow-hidden">
                         <Picture
                             url="/posta/farmacia-movil-3.jpeg"
                             alt="Farmacia móvil"
-                            style="transition duration-500 ease-in-out transform hover:scale-110"
+                            style="transition duration-500 ease-in-out transform hover:scale-110 h-full lg:h-[400px] w-full"
                         />
                     </div>
                 </div>

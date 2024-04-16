@@ -6,7 +6,7 @@ import Picture from '../utils/Picture';
 
 export default function Banner() {
     return (
-        <section className='mt-4'>
+        <section>
             <Swiper
                 spaceBetween={5}
                 centeredSlides={true}

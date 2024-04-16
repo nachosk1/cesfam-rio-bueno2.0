@@ -24,18 +24,16 @@ export const meta = () => {
 export default function Index() {
     return (
         <div>
-            <ClientOnly fallback={<Spinner />}>{() => <Banner />}</ClientOnly>
+            <Banner />
             <div className="bg-slate-200 pt-10 md:pt-14 pb-10">
                 <Container>
-                    <ClientOnly fallback={<Spinner />}>
-                        {() => <DeptSummary />}
-                    </ClientOnly>
+                    <DeptSummary />
                 </Container>
             </div>
             <BottomBorder />
 
             <Container>
-                <div className='space-y-8 md:space-y-10 mb-8 md:pb-8'>
+                <div className="space-y-8 md:space-y-10 mb-8 md:pb-8">
                     <SectionHere />
                     <hr />
                     <div>

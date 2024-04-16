@@ -79,7 +79,7 @@ export const imagesBanner = [
 
 export const clinic = [
     {
-        src: '/posta/cesfam-rio-bueno.jpg',
+        src: '/posta/cesfam-rio-bueno.webp',
         name: 'Cesfam Río Bueno',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -93,7 +93,7 @@ export const clinic = [
         phone: '(64) 234 4550',
     },
     {
-        src: '/posta/posta-carimallin.jpg',
+        src: '/posta/posta-carimallin.webp',
         name: 'Posta Carimallin',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -107,7 +107,7 @@ export const clinic = [
         phone: '+56 9 9594 9197',
     },
     {
-        src: '/posta/posta-cayurruca.jpg',
+        src: '/posta/posta-cayurruca.webp',
         name: 'Posta Cayurruca',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -121,7 +121,7 @@ export const clinic = [
         phone: '+56 44 244 1069',
     },
     {
-        src: '/posta/posta-crucero.jpg',
+        src: '/posta/posta-crucero.webp',
         name: 'Posta Crucero',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -135,7 +135,7 @@ export const clinic = [
         phone: '+56 44 244 1072',
     },
     {
-        src: '/posta/posta-futahuente.jpg',
+        src: '/posta/posta-futahuente.webp',
         name: 'Posta Futahuente',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -149,7 +149,7 @@ export const clinic = [
         phone: '+56 44 244 1067',
     },
     {
-        src: '/posta/posta-trapi.jpg',
+        src: '/posta/posta-trapi.webp',
         name: 'Posta Trapi',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -163,7 +163,7 @@ export const clinic = [
         phone: '+56 44 244 1071',
     },
     {
-        src: '/posta/posta-vivanco.jpg',
+        src: '/posta/posta-vivanco.webp',
         name: 'Posta Vivanco',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -177,7 +177,7 @@ export const clinic = [
         phone: '+56 44 244 1068',
     },
     {
-        src: '/posta/posta-mantilhue.jpg',
+        src: '/posta/posta-mantilhue.webp',
         name: 'Posta Mantilhue',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -245,7 +245,7 @@ export const infoBenefit = [
             'Consulta y consejería de salud mental.',
             'Vacunación.',
         ],
-        image: '/dependencies/children.jpg',
+        image: '/dependencies/children.webp',
     },
     {
         title: 'Salud de adolescentes',
@@ -263,7 +263,7 @@ export const infoBenefit = [
             'Programa Nacional de Alimentación Complementaria.',
             'Atención a domicilio.',
         ],
-        image: '/dependencies/teen.jpg',
+        image: '/dependencies/teen.webp',
     },
     {
         title: 'Salud de mujer',
@@ -278,7 +278,7 @@ export const infoBenefit = [
             'Consulta morbilidad ginecológica.',
             'Consulta nutricional.',
         ],
-        image: '/dependencies/women.jpg',
+        image: '/dependencies/women.webp',
     },
     {
         title: 'Salud de adultos y adultas',
@@ -293,7 +293,7 @@ export const infoBenefit = [
             'Atención a domicilio.',
             'Atención a podología a pacientes con diabetes mellitus.',
         ],
-        image: '/dependencies/adults.jpg',
+        image: '/dependencies/adults.webp',
     },
     {
         title: 'Salud de adultos mayores',
@@ -309,7 +309,7 @@ export const infoBenefit = [
             'Vacunación anti influenza.',
             'Atención a domicilio.',
         ],
-        image: '/dependencies/older-adults.jpg',
+        image: '/dependencies/older-adults.webp',
     },
 ];
 

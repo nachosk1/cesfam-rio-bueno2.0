@@ -8,7 +8,7 @@ export default function About() {
         <div>
             <div className="fixed w-full z-[25] h-[30vh] md:h-[40vh]">
                 <Picture
-                    url="/about/banner-about-us.jpg"
+                    url="/about/banner-about-us.webp"
                     alt="Banner Quienes Somos"
                     style="w-full h-full object-cover object-center"
                 />
@@ -32,7 +32,7 @@ export default function About() {
                         <div className="mt-2 md:mt-6 grid md:grid-cols-2 gap-6">
                             <div>
                                 <Picture
-                                    url="/about/team.png"
+                                    url="/about/team.webp"
                                     alt="Imagen Nuestro Equipo"
                                     style="object-contain w-full h-full"
                                 />
@@ -52,7 +52,7 @@ export default function About() {
                             <Community />
                             <div>
                                 <Picture
-                                    url="/about/community.jpg"
+                                    url="/about/community.webp"
                                     alt="Imagen Compromiso con la Comunidad"
                                     style="object-contain w-full h-full"
                                 />

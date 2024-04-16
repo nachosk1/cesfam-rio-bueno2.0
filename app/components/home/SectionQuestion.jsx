@@ -15,7 +15,7 @@ export default function SectionQuestion() {
             <div className="grid lg:grid-cols-2 gap-6 mt-4 md:mt-12">
                 <div className="overflow-hidden w-full h-[250px] rounded md:h-[400px] mx-auto">
                     <Picture
-                        url="/question/image-question.jpg"
+                        url="/question/image-question.webp"
                         alt="imagen pregunta frecuente"
                         style="object-cover hover:scale-105 h-full w-full transition-all duration-300 ease-in-out transform"
                     />
