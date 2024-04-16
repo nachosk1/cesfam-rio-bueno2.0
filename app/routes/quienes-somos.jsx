@@ -5,7 +5,7 @@ import Picture from '../components/utils/Picture';
 
 export default function About() {
     return (
-        <div className="">
+        <div>
             <div className="fixed w-full z-[25] h-[30vh] md:h-[40vh]">
                 <Picture
                     url="/about/banner-about-us.jpg"

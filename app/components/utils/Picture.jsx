@@ -1,7 +1,6 @@
-const Picture = ({ url, alt = '', style, width, height }) => {
+const Picture = ({ url, alt = '', style, width, height, pic }) => {
     return (
-        <picture>
-
+        <picture className={pic}>
             <img
                 className={style}
                 src={url}
