@@ -325,3 +325,156 @@ export const benefitsGES = [
     'Acceso a tratamiento médico en personas de 55 años y más, con artrosis de cadera y/o rodillas, leve o moderada.',
     'Acceso a tratamientos de hipotiroidismo en personas de 15 años y más.',
 ];
+
+export const news = [
+    {
+        title: 'Movimiento es Vida: Cómo el Sedentarismo Amenaza Nuestra Salud',
+        banner: '/uploads/sedentarismo.jpg',
+        description:
+            'El sedentarismo, definido como un bajo nivel de actividad física, se ha convertido en un problema de salud pública mundial. Este estilo de vida aumenta el riesgo de numerosas enfermedades crónicas, incluidas las enfermedades cardiovasculares, la diabetes tipo 2 y ciertos tipos de cáncer, y puede afectar negativamente la salud mental.',
+        symptoms:
+            'Los factores de riesgo asociados al sedentarismo incluyen el trabajo de oficina, el uso excesivo de dispositivos electrónicos y la falta de acceso a espacios seguros para la actividad física. Aunque el sedentarismo no tiene síntomas per se, sus efectos a largo plazo pueden manifestarse como fatiga, debilidad muscular y obesidad.',
+        help: 'Si bien generalmente no se requiere ayuda médica para combatir el sedentarismo, consultar a un profesional puede ser útil para personas con condiciones preexistentes o aquellas que necesitan orientación para desarrollar un plan de actividad física seguro y efectivo.',
+        treatment:
+            'La clave para tratar el sedentarismo es integrar cambios sostenibles en el estilo de vida que aumenten la actividad física. Esto puede incluir el uso de las escaleras en lugar del ascensor, realizar pausas activas durante el trabajo y participar en actividades recreativas que promuevan el movimiento.',
+        prevention:
+            'Incorporar actividad física regular en la rutina diaria es esencial para prevenir el sedentarismo. Esto puede incluir caminar, andar en bicicleta, hacer ejercicios de estiramiento o participar en deportes. Establecer un objetivo de al menos 150 minutos de actividad moderada a la semana es un buen punto de partida.',
+        slug: 'movimiento-es-vida-como-el-sedentarismo-amenaza-nuestra-salud',
+        images: '/uploads/sedentarismo-1.jpg, /uploads/sedentarismo-2.jpg',
+    },
+    {
+        title: '¿Cómo Podemos Adaptarnos y Convivir Seguros con COVID-19?',
+        banner: '/uploads/covid.jpg',
+        description:
+            'COVID-19, una enfermedad causada por el virus SARS-CoV-2, ha tenido un impacto global sin precedentes en la salud pública, economía y sociedad. Aunque las campañas de vacunación han reducido la severidad de la enfermedad, las variantes emergentes y las olas sucesivas continúan planteando desafíos.',
+        symptoms:
+            'Los síntomas varían desde leves a graves e incluyen fiebre, tos, dificultad para respirar, y pérdida del gusto o el olfato. Los factores de riesgo para formas graves de la enfermedad incluyen la edad avanzada, condiciones preexistentes y un sistema inmunológico comprometido.',
+        help: 'Es importante buscar atención médica si se presentan síntomas de COVID-19, especialmente si se está en un grupo de alto riesgo para enfermedades graves. La detección temprana y el tratamiento pueden mejorar significativamente los resultados.',
+        treatment:
+            'El tratamiento varía según la gravedad de la enfermedad, desde cuidados en el hogar para casos leves hasta intervenciones médicas avanzadas, como el uso de oxígeno o ventilación mecánica, para casos graves. Los antivirales y los tratamientos de apoyo también son parte del manejo de la enfermedad.',
+        prevention:
+            'La prevención se basa en la vacunación, el uso de mascarillas en lugares concurridos, el lavado frecuente de manos y el mantenimiento de la distancia social. Estas medidas son cruciales para controlar la propagación del virus.',
+        slug: 'como-poder-adaptarnos-y-convivir-seguros-con-covid-19',
+        images: '/uploads/covid-1.jpg, /uploads/covid-2.jpg, /uploads/covid-3.jpg, /uploads/covid-4.jpg',
+    },
+    {
+        title: 'Dulces Sueños: Descifrando el Rol del Sueño en Nuestra Salud',
+        banner: '/uploads/sueño.jpg',
+        description:
+            'El sueño no es solo un periodo de descanso, sino una función vital que permite al cuerpo y la mente recuperarse, consolidar la memoria y procesar información. Una buena higiene del sueño es crucial para mantener una buena salud física y mental, influyendo en nuestro rendimiento diario, estado de ánimo y bienestar general.',
+        symptoms:
+            'Los trastornos del sueño, como el insomnio o la apnea del sueño, pueden manifestarse mediante fatiga diurna, irritabilidad, dificultad para concentrarse y problemas de memoria. Factores de riesgo incluyen estrés, horarios irregulares de sueño, uso excesivo de pantallas antes de dormir y problemas de salud subyacentes.',
+        help: 'Es importante buscar ayuda si los problemas de sueño persisten, afectando la calidad de vida, la salud mental o física. Un especialista puede identificar la causa subyacente y recomendar el tratamiento adecuado.',
+        treatment:
+            'Para tratar trastornos del sueño, se pueden considerar técnicas de relajación, terapia cognitivo-conductual para insomnio y, en algunos casos, medicación. Consultar a un especialista en sueño puede ser necesario para casos más graves.',
+        prevention:
+            'Crear un ambiente propicio para el sueño, como un dormitorio oscuro, fresco y tranquilo, es fundamental. Establecer una rutina nocturna relajante y evitar estimulantes como la cafeína y la exposición a pantallas electrónicas antes de acostarse también pueden mejorar la calidad del sueño.',
+        slug: 'dulces-suenos-descifrando-el-rol-del-sueno-en-nuestra-salud',
+        images: '/uploads/sueño-1.jpg, /uploads/sueño-2.jpg, /uploads/sueño-3.jpg',
+    },
+    {
+        title: 'Alimenta tu Vida: La Conexión Vital entre Nutrición y Salud',
+        banner: '/uploads/alimentacion.jpg',
+        description:
+            'Una alimentación saludable no solo nutre el cuerpo, sino que también es esencial para prevenir enfermedades crónicas, mantener un peso saludable y promover el bienestar general. La dieta impacta directamente en nuestra salud física, mental y emocional, ofreciendo los nutrientes necesarios para el funcionamiento óptimo del organismo.',
+        symptoms:
+            'Una dieta pobre puede llevar a condiciones como obesidad, enfermedades cardiovasculares, diabetes tipo 2 y deficiencias nutricionales. Los factores de riesgo incluyen la ingesta excesiva de alimentos procesados, azúcares añadidos y grasas saturadas, junto con un bajo consumo de frutas, verduras y fibra.',
+        help: 'Se recomienda buscar orientación médica cuando se presentan problemas de salud relacionados con la dieta o si se necesita asistencia para desarrollar un plan de alimentación saludable, especialmente en casos de condiciones médicas preexistentes o trastornos alimenticios.',
+        treatment:
+            'El tratamiento para problemas relacionados con la alimentación puede incluir el asesoramiento nutricional, la planificación de comidas y, en algunos casos, la intervención médica para tratar deficiencias o enfermedades específicas. La educación sobre nutrición juega un papel importante en el manejo a largo plazo.',
+        prevention:
+            'Adoptar una dieta equilibrada rica en frutas, verduras, proteínas magras y granos enteros es clave. Limitar el consumo de azúcares refinados, grasas saturadas y alimentos procesados también es crucial para mantener una buena salud.',
+        slug: 'alimenta-tu-vida-la-conexion-vital-entre-nutricion-y-salud',
+        images: '/uploads/alimentacion-1.jpg, /uploads/alimentacion-2.jpg, /uploads/alimentacion-3.jpg, /uploads/alimentacion-4.jpg',
+    },
+    {
+        title: '¿Cómo Mejorar Nuestro Manejo del Estrés en la Vida Cotidiana?',
+        banner: '/uploads/estres.jpg',
+        description:
+            'El estrés es una reacción fisiológica del cuerpo ante situaciones que se perciben como amenazas o demandas excesivas. Mientras que el estrés ocasional puede ser beneficioso para la motivación y el rendimiento, el estrés crónico tiene efectos perjudiciales en la salud física y mental, contribuyendo al desarrollo de enfermedades cardíacas, ansiedad, depresión, entre otras.',
+        symptoms:
+            'Los síntomas del estrés pueden incluir irritabilidad, ansiedad, depresión, dolores de cabeza y problemas de sueño. Factores de riesgo incluyen una carga de trabajo elevada, problemas personales o familiares, y la falta de un sistema de apoyo.',
+        help: 'Buscar ayuda médica es crucial cuando el estrés interfiere con la capacidad para funcionar en la vida cotidiana o cuando se manifiestan síntomas físicos o emocionales graves.',
+        treatment:
+            'El tratamiento puede incluir terapia psicológica para desarrollar estrategias de afrontamiento, técnicas de relajación y, en algunos casos, medicación para manejar los síntomas de ansiedad o depresión relacionados con el estrés.',
+        prevention:
+            'Manejar el estrés efectivamente implica adoptar técnicas de relajación, como la meditación y el yoga, mejorar la gestión del tiempo, establecer límites saludables y buscar actividades que proporcionen satisfacción y relajación.',
+        slug: 'como-mejorar-nuestro-manejo-del-estres-en-la-vida-cotidiana',
+        images: '/uploads/estres-1.jpg, /uploads/estres-2.jpg, /uploads/estres-3.jpg',
+    },
+    {
+        title: 'Rompiendo el Silencio: El Impacto Invisible de los Trastornos de Salud Mental',
+        banner: '/uploads/salud-mental.jpg',
+        description:
+            'La salud mental abarca nuestro bienestar emocional, psicológico y social, afectando cómo pensamos, sentimos y actuamos en nuestra vida diaria. Es fundamental en todas las etapas de la vida, desde la infancia y adolescencia hasta la adultez. Los trastornos de salud mental, como la depresión y la ansiedad, pueden influir en la forma en que manejamos el estrés, nos relacionamos con otros y tomamos decisiones.',
+        symptoms:
+            'Los síntomas varían ampliamente dependiendo del trastorno específico, pero pueden incluir cambios en el estado de ánimo, comportamientos y hábitos de pensamiento. Los factores de riesgo incluyen una historia familiar de trastornos de salud mental, experiencias traumáticas, estrés crónico y problemas de abuso de sustancias.',
+        help: 'Es importante buscar ayuda médica si los síntomas de salud mental interfieren significativamente con la capacidad de una persona para funcionar en el trabajo, la escuela o en sus relaciones personales. La intervención temprana mejora significativamente el pronóstico.',
+        treatment:
+            'El tratamiento puede incluir terapia psicológica, medicación y programas de apoyo. El manejo efectivo también implica desarrollar habilidades de afrontamiento saludables, establecer una red de apoyo social y, en algunos casos, realizar cambios en el estilo de vida.',
+        prevention:
+            'Mantener un equilibrio saludable entre el trabajo, las actividades de ocio y las relaciones interpersonales puede prevenir el desarrollo o el agravamiento de los trastornos de salud mental. Practicar técnicas de manejo del estrés, como la meditación y el ejercicio regular, también juega un papel crucial.',
+        slug: 'rompiendo-el-silencio-el-impacto-invisible-de-los-trastornos-de-salud-mental',
+        images: '/uploads/salud-mental-1.jpg, /uploads/salud-mental-2.jpg, /uploads/salud-mental-3.jpg, /uploads/salud-mental-4.jpg',
+    },
+    {
+        title: '¿Por Qué es Crucial Mantener al Día Nuestro Esquema de Vacunación?',
+        banner: '/uploads/vacunacion.jpg',
+        description:
+            'La vacunación es una de las herramientas más efectivas para prevenir enfermedades infecciosas, reduciendo significativamente la incidencia de enfermedades mortales y contagiosas. Al estimular la respuesta inmunitaria del cuerpo, las vacunas nos protegen contra virus y bacterias sin exponernos a los riesgos de la enfermedad misma.',
+        symptoms:
+            'No aplicable de manera directa, ya que la vacunación previene la aparición de síntomas y reduce los factores de riesgo asociados con diversas enfermedades infecciosas.',
+        help: 'Se recomienda consultar a un profesional de la salud ante cualquier duda sobre el calendario de vacunación o si se presentan reacciones adversas inusuales después de recibir una vacuna.',
+        treatment:
+            "La vacunación no es un 'tratamiento' en el sentido convencional, sino más bien una medida preventiva. El manejo de reacciones adversas menores, como dolor en el sitio de inyección o fiebre leve, se puede realizar con medidas simples en casa.",
+        prevention:
+            'Es fundamental seguir las recomendaciones de vacunación para todas las edades, lo cual incluye vacunas infantiles, refuerzos en adultos, y vacunas específicas para grupos de riesgo, como la vacuna contra la influenza anual y las dosis adecuadas contra COVID-19.',
+        slug: 'por-que-es-crucial-mantener-al-dia-nuestro-esquema-de-vacunacion',
+        images: '/uploads/vacunacion-1.jpg, /uploads/vacunacion-2.jpg, /uploads/vacunacion-3.jpg, /uploads/vacunacion-4.jpg',
+    },
+    {
+        title: '¿Cómo Podemos Prevenir y Manejar la Diabetes Eficazmente?',
+        banner: '/uploads/diabetes.jpg',
+        description:
+            'La diabetes es una enfermedad crónica que afecta la manera en que el cuerpo procesa el azúcar en la sangre. Con dos tipos principales, tipo 1 y tipo 2, esta condición puede llevar a complicaciones graves si no se maneja adecuadamente, incluyendo enfermedades cardíacas, daño renal y pérdida de la visión.',
+        symptoms:
+            'Los síntomas incluyen sed excesiva, hambre, pérdida de peso inexplicable (tipo 1) y fatiga. Los factores de riesgo para la diabetes tipo 2 incluyen obesidad, inactividad física, historial familiar de diabetes y edad avanzada.',
+        help: 'Es importante buscar evaluación médica si se presentan síntomas de diabetes o si se tienen factores de riesgo para desarrollar la enfermedad. Un diagnóstico temprano y el inicio del tratamiento pueden prevenir complicaciones.',
+        treatment:
+            'El manejo de la diabetes incluye monitorear los niveles de azúcar en la sangre, utilizar medicamentos o insulina según sea necesario, y hacer cambios en el estilo de vida, como mejorar la dieta y aumentar la actividad física.',
+        prevention:
+            'Para prevenir la diabetes tipo 2, se recomienda mantener un peso saludable, realizar actividad física regular, adoptar una dieta equilibrada rica en frutas y verduras y limitar la ingesta de azúcares y grasas saturadas.',
+        slug: 'como-podemos-prevenir-y-manejar-la-diabete-eficazmente',
+        images: '/uploads/diabetes-1.jpg, /uploads/diabetes-2.jpg, /uploads/diabetes-3.jpg, /uploads/diabetes-4.jpg',
+    },
+    {
+        title: 'El Corazón de la Cuestión: Estrategias Clave para una Salud Cardiovascular Óptima',
+        banner: '/uploads/cardiovascular.jpg',
+        description:
+            'La salud cardiovascular se refiere al funcionamiento óptimo del corazón y los vasos sanguíneos. Mantener un sistema cardiovascular saludable es esencial para prevenir enfermedades como la hipertensión arterial, el infarto de miocardio y el accidente cerebrovascular, que son causas líderes de muerte a nivel mundial.',
+        symptoms:
+            'Los factores de riesgo para las enfermedades cardiovasculares incluyen la hipertensión arterial, el colesterol alto, el tabaquismo, la obesidad, la inactividad física y una dieta pobre. Los síntomas varían según la condición específica, pero pueden incluir dolor en el pecho, dificultad para respirar y fatiga.',
+        help: 'Es crucial buscar ayuda médica si se experimentan síntomas de enfermedades cardiovasculares o si se tienen múltiples factores de riesgo. Un diagnóstico temprano y el tratamiento pueden salvar vidas.',
+        treatment:
+            'El tratamiento puede incluir medicación para controlar la hipertensión arterial, el colesterol y otros factores de riesgo, así como intervenciones quirúrgicas en casos más graves. El manejo a largo plazo también implica cambios en el estilo de vida para mantener el corazón saludable.',
+        prevention:
+            'Prevenir enfermedades cardiovasculares implica adoptar un estilo de vida saludable que incluya una dieta equilibrada, rica en frutas, verduras y granos enteros, actividad física regular, no fumar y limitar el consumo de alcohol.',
+        slug: 'el-corazon-de-la-cuestion-estrategias-clave-para-una-salud-cardiovascular-optima',
+        images: '/uploads/cardiovascular-1.jpg, /uploads/cardiovascular-2.jpg, /uploads/cardiovascular-3.jpg',
+    },
+    {
+        title: '¿Estamos Bebiendo Suficiente Agua para Mantenernos Saludables?',
+        banner: '/uploads/beber-agua.jpg',
+        description:
+            'La salud ambiental examina cómo el ambiente físico, químico y biológico afecta nuestra salud. Factores como la contaminación del aire y del agua, la exposición a sustancias químicas tóxicas y los cambios climáticos tienen un impacto significativo en nuestra calidad de vida y pueden contribuir a enfermedades respiratorias, cardiovasculares y cáncer.',
+        symptoms:
+            'Los riesgos para la salud ambiental varían ampliamente dependiendo de la exposición y el individuo. Los síntomas pueden incluir problemas respiratorios, irritaciones cutáneas y un mayor riesgo de enfermedades crónicas.',
+        help: 'Se debe buscar asesoramiento médico si se sospecha que los problemas de salud están relacionados con factores ambientales, especialmente si se vive en áreas con alta contaminación o exposición a sustancias químicas nocivas.',
+        treatment:
+            'A menudo, el tratamiento implica abordar los síntomas específicos causados por la exposición ambiental, mientras que el manejo a largo plazo requiere cambios en el estilo de vida y, en algunos casos, la reubicación para minimizar la exposición.',
+        prevention:
+            'La prevención implica reducir la exposición a contaminantes ambientales, promover prácticas sostenibles como el reciclaje y el uso de productos ecológicos, y apoyar políticas públicas que protejan la salud ambiental.',
+        slug: 'respirando-cambio-como-nuestro-entorno-influye-en-la-salud-y-que-podemos-hacer-al-respecto',
+        images: '/uploads/beber-agua-1.jpg, /uploads/beber-agua-2.jpg, /uploads/beber-agua-3.jpg',
+    },
+];
