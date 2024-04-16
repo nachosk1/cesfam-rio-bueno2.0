@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .text-heading {
-    @apply text-[24px] leading-[2rem] md:text-[40px] text-third font-medium text-balance;
+    @apply text-[24px] leading-[2rem] md:leading-[2.5rem] md:text-[40px] text-third font-medium text-balance;
 }
 
 .text-subtitle {
