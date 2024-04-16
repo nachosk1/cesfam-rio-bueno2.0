@@ -28,3 +28,15 @@
 .footer__link {
     @apply flex flex-col gap-6 text-base;
 }
+
+main {
+    @apply pt-36 md:pt-48 xl:pt-36;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+picture {
+    @apply w-full;
+}

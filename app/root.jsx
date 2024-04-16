@@ -10,10 +10,12 @@ import {
 import NavBar from './components/navigation/Navbar';
 import Footer from './components/footer/Footer';
 
-import stylesheet from './tailwind.css';
+import stylesheet from './styles/tailwind.css';
+import swiperStyle from './styles/swiper.css';
 
 export const links = () => [
     { rel: 'stylesheet', href: stylesheet, type: 'text/css' },
+    { rel: 'stylesheet', href: swiperStyle, type: 'text/css' },
 ];
 
 export default function App() {
@@ -36,7 +38,7 @@ export function Layout({ children }) {
             </head>
             <body>
                 <NavBar />
-                <main className='h-screen'>{children}</main>
+                <main className="bg-background">{children}</main>
                 <Footer />
                 <ScrollRestoration />
                 <Scripts />

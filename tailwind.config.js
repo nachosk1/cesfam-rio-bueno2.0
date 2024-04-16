@@ -9,7 +9,10 @@ export default {
         third: "#0e487e",
         background: "#fff",
       },
-      
+      flex: {
+        0.25: 0.25, // Esto establece flex: 0.25
+        2: 2
+      },
     },
   },
   plugins: [],
