@@ -191,3 +191,39 @@ export const clinic = [
         phone: '+56 44 244 1068',
     },
 ];
+
+export const questions = [
+    {
+        question: '¿Cómo puedo solicitar una hora médica?',
+        answer: 'La atención para solicitar la hora médica estan habilitadas una vez al mes, solo tienes que registrarte e iniciar sesión para luego seleccionar la opcion de solicitar hora, donde tendras que seguir los pasos a continuación.',
+    },
+    {
+        question: '¿Si no tengo correo electronico?',
+        answer: 'En caso de no tener correo electronico, es opcional, pero debes ingresar tu número de teléfono la cual sera el medio para contartarse por una solicitud de hora médica.',
+    },
+    {
+        question: '¿Cuentan con Vacunatorio?',
+        answer: 'Puedes solicitar una hora médica llamando a nuestro call center o acercándote a nuestro centro de salud.',
+    },
+    {
+        question:
+            '¿Cuáles son los horarios de atención de los centros de salud?',
+        answer: 'El horario de atención del centro de salud es el siguiente: Lunes a jueves: de 08:00 a 17:00 horas, Viernes: de 08:00 a 16:00 horas, Sábado: de 08:00 a 13:00 horas, Domingo: cerrado.',
+    },
+    {
+        question: '¿Dónde queda el Departamento de Salud Municipal?',
+        answer: 'El Departamento de Salud Municipal de Río Bueno se encuentra en la calle Pedro Lagos N° 207. Esta institución es responsable de la administración de la salud pública en la comuna de Río Bueno, que forma parte de la provincia del Ranco en la Región de Los Ríos, en la zona sur de Chile.',
+    },
+    {
+        question: '¿Existe un medio para compartir mi sugerencia o reclamos?',
+        answer: 'Sí, existe un formulario en la sección de OIRS donde puedes expresar tus comentarios, quejas o feedback. Solo necesitas proporcionar tu RUT y escribir el mensaje relacionado con el problema que deseas comunicarnos.',
+    },
+    {
+        question: '¿Cómo puedo solicitar una hora médica?',
+        answer: 'Puedes solicitar una hora médica llamando a nuestro call center o acercándote a nuestro centro de salud.',
+    },
+    {
+        question: '¿Cómo puedo solicitar una hora médica?',
+        answer: 'Puedes solicitar una hora médica llamando a nuestro call center o acercándote a nuestro centro de salud.',
+    },
+];
