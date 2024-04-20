@@ -3,7 +3,7 @@ export const footerLinks = [
         title: 'Sobre Nosotros',
         links: [
             { title: 'Quiénes somos', url: '/quienes-somos' },
-            { title: 'Misión y Visión', url: '/mision-vision' },
+            { title: 'Misión y Visión', url: '/mision-y-vision' },
             { title: 'Equipo de Salud', url: '/equipo-de-salud' },
             { title: 'Organigrama', url: '/organigrama' },
         ],

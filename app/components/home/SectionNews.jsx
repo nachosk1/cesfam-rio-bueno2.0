@@ -12,7 +12,7 @@ export default function SectionNews() {
         <h2 className="text-heading text-center">Noticias</h2>
         <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {firstThreeNews.map((item) => (
-            <News key={item.id} news={item} />
+            <News key={item.title} news={item} />
           ))}
         </div>
         <div className="flex justify-center mt-8">

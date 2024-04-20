@@ -33,10 +33,6 @@ main {
     @apply pt-36 md:pt-48 xl:pt-36;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 picture {
     @apply w-full;
 }
