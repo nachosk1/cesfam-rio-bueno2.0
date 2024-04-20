@@ -11,26 +11,26 @@ export const footerLinks = [
     {
         title: 'Servicio',
         links: [
-            { title: 'Agendar Horas', url: '/' },
+            { title: 'Agendar Horas', url: '/solicitar-hora' },
             { title: 'Especialidades', url: '/especialidades' },
-            { title: 'Programa de Salud', url: '/' },
-            { title: 'Información de Vacunación', url: '/' },
+            { title: 'Programa de Salud', url: '/programa-de-salud' },
+            { title: 'Información de Vacunación', url: '/informacion-de-vacunacion' },
         ],
     },
     {
         title: 'Atención al paciente',
         links: [
             { title: 'Contacto', url: '/contacto' },
-            { title: 'Derechos y Deberes del Paciente', url: '/' },
-            { title: 'Preguntas Frecuentes', url: '/question' },
-            { title: 'Política de Privacidad', url: '/' },
+            { title: 'Derechos y Deberes del Paciente', url: '/derechos-y-deberes-del-paciente' },
+            { title: 'Preguntas Frecuentes', url: '/preguntas-frecuentes' },
+            { title: 'Política de Privacidad', url: '/politica-de-privacidad' },
         ],
     },
     {
         title: 'Recursos',
         links: [
             { title: 'Noticias y Eventos', url: '/noticias-y-eventos' },
-            { title: 'Enlaces a Servicios de Emergencias', url: '/' },
+            { title: 'Enlaces a Servicios de Emergencias', url: '/enlaces-a-servicios-de-emergencias' },
         ],
     },
 ];
@@ -476,5 +476,29 @@ export const news = [
             'La prevención implica reducir la exposición a contaminantes ambientales, promover prácticas sostenibles como el reciclaje y el uso de productos ecológicos, y apoyar políticas públicas que protejan la salud ambiental.',
         slug: 'respirando-cambio-como-nuestro-entorno-influye-en-la-salud-y-que-podemos-hacer-al-respecto',
         images: '/uploads/beber-agua-1.jpg, /uploads/beber-agua-2.jpg, /uploads/beber-agua-3.jpg',
+    },
+];
+
+export const specialtiesMore = [
+    {
+        title: 'Noticias y Eventos',
+        description:
+            'Mantente al día con las últimas noticias y eventos de nuestro centro de salud. Participa en nuestras actividades comunitarias y más.',
+        image: '/specialties/news-and-events.webp',
+        href: '/noticias-y-eventos',
+    },
+    {
+        title: 'Programa de Salud',
+        description:
+            'Explora nuestros programas de salud diseñados para apoyar tu bienestar y prevenir enfermedades.',
+        image: '/specialties/health-program.webp',
+        href: '/programa-de-salud',
+    },
+    {
+        title: 'Información de Vacunación',
+        description:
+            'Conoce los horarios de vacunación, los requisitos y toda la información relevante para mantener tu calendario de vacunas al día.',
+        image: '/specialties/vaccination-information.webp',
+        href: '/informacion-de-vacunacion',
     },
 ];

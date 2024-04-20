@@ -6,7 +6,7 @@ import Picture from '../components/utils/Picture';
 export default function MissionPage() {
     return (
         <div className="space-y-10 md:space-y-16 pb-10">
-            <BannerDefault image="/mission-vision/blur-hospital.jpg">
+            <BannerDefault image="/mission-vision/blur-hospital.webp">
                 <div className="text-center">
                     <div className="md:px-16">
                         <h1 className="text-heading text-center">
@@ -45,7 +45,7 @@ export default function MissionPage() {
 
                     <div className="mt-8 md:mt-16 bg-slate-200 grid md:grid-cols-[40%_auto] gap-4 md:gap-8 text-start p-4 md:p-6 rounded-md">
                         <Picture
-                            url={'/mission-vision/values.jpg'}
+                            url={'/mission-vision/values.webp'}
                             alt="imagen nuestros valores"
                             style="md:aspect-square object-contain md:object-cover rounded-md h-full w-full"
                         />
@@ -76,7 +76,7 @@ export default function MissionPage() {
                     </div>
                     <div className="mt-8 md:mt-16 bg-slate-200 grid md:grid-cols-[auto_40%] gap-4 md:gap-8 text-start p-6 rounded-md">
                         <Picture
-                            url={'/mission-vision/image-culture.jpg'}
+                            url={'/mission-vision/image-culture.webp'}
                             alt="imagen nuestros valores"
                             style="md:aspect-square object-contain md:object-cover rounded-md h-full w-full"
                         />
