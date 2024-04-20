@@ -3,7 +3,7 @@ import ListMoreSpecialties from '../components/specialties/ListMoreSpecialties';
 import ListSpecialties from '../components/specialties/ListSpecialties';
 import Container from '../components/utils/Container';
 
-export default function especialidades() {
+export default function Specialties() {
     return (
         <div className="my-8 md:my-10">
             <Container>
@@ -21,7 +21,7 @@ export default function especialidades() {
                 <ListSpecialties />
 
                 <ListMoreSpecialties />
-                
+
                 <SectionMap />
             </Container>
         </div>

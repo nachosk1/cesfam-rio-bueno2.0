@@ -1,8 +1,8 @@
 import Developing from '../components/utils/Developing';
 
-export default function Organization() {
+export default function VaccinationInformation() {
     return (
-        <div className="my-8 md:my-10">
+        <div className="mt-8 md:mt-10">
             <Developing />
         </div>
     );
