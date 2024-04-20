@@ -10,14 +10,14 @@ export default function MobilePharmacy() {
                 <div className="flex justify-between gap-8">
                     <div className="relative w-full rounded-lg overflow-hidden">
                         <Picture
-                            url="/posta/farmacia-movil.jpeg"
+                            url="/posta/farmacia-movil.webp"
                             alt="Farmacia móvil"
                             style="transition duration-500 ease-in-out transform hover:scale-110 h-full lg:h-[400px] w-full"
                         />
                     </div>
                     <div className="relative w-full rounded-lg overflow-hidden">
                         <Picture
-                            url="/posta/farmacia-movil-3.jpeg"
+                            url="/posta/farmacia-movil-3.webp"
                             alt="Farmacia móvil"
                             style="transition duration-500 ease-in-out transform hover:scale-110 h-full lg:h-[400px] w-full"
                         />

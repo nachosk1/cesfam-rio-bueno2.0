@@ -1,16 +1,10 @@
-import Link from "next/link";
+import { Link } from "@remix-run/react";
+import News from "../news-events/News";
+import Button from "../utils/Button";
+import { news } from "../../../constant";
 
-import News from "./News";
-import Button from "../Button";
-import { getNews } from "@/libs/news";
-
-export default async function SectionNews() {
-  const { data } = await getNews();
-
-  if (!data) {
-    return null;
-  }
-  const firstThreeNews = data.slice(0, 3);
+export default function SectionNews() {
+  const firstThreeNews = news.slice(0, 3);
 
   return (
     <>

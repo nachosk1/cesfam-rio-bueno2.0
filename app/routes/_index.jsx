@@ -9,6 +9,7 @@ import SectionQuestion from '../components/home/SectionQuestion';
 import SectionOirs from '../components/home/SectionOirs';
 import SectionIcons from '../components/home/SectionIcons';
 import SectionMap from '../components/home/SectionMap';
+import SectionNews from '../components/home/SectionNews';
 
 export const meta = () => {
     return [
@@ -40,7 +41,7 @@ export default function Index() {
                         <SectionQuestion />
                     </div>
                     <hr />
-                    {/* <SectionNews /> */}
+                    <SectionNews />
                     <SectionOirs />
                     <hr />
                     <SectionIcons />

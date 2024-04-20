@@ -1,4 +1,4 @@
-const Picture = ({ url, alt = '', style, width, height, pic }) => {
+const Picture = ({ url, alt = '', style, width, height, pic}) => {
     return (
         <picture className={pic}>
             <img
