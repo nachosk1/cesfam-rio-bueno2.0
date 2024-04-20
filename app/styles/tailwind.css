@@ -30,7 +30,7 @@
 }
 
 main {
-    @apply pt-36 md:pt-48 xl:pt-36;
+    @apply pt-[8.5rem] md:pt-48 xl:pt-36;
 }
 
 picture {
