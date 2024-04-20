@@ -218,14 +218,6 @@ export const questions = [
         question: '¿Existe un medio para compartir mi sugerencia o reclamos?',
         answer: 'Sí, existe un formulario en la sección de OIRS donde puedes expresar tus comentarios, quejas o feedback. Solo necesitas proporcionar tu RUT y escribir el mensaje relacionado con el problema que deseas comunicarnos.',
     },
-    {
-        question: '¿Cómo puedo solicitar una hora médica?',
-        answer: 'Puedes solicitar una hora médica llamando a nuestro call center o acercándote a nuestro centro de salud.',
-    },
-    {
-        question: '¿Cómo puedo solicitar una hora médica?',
-        answer: 'Puedes solicitar una hora médica llamando a nuestro call center o acercándote a nuestro centro de salud.',
-    },
 ];
 
 export const infoBenefit = [
