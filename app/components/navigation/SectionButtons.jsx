@@ -37,10 +37,10 @@ export default function SectionButtons() {
 
   return (
     <div className="flex space-x-4 justify-center items-center md:flex-col md:gap-y-4 md:items-end xl:flex-row">
-      <Link href="/login">
+      <Link to="/login">
         <Button>Iniciar Sesión</Button>
       </Link>
-      <Link href="/register">
+      <Link to="/register">
         <Button color="bg-white" textColor="text-primary">
           Registrarme
         </Button>
