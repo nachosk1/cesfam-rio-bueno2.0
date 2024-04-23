@@ -8,7 +8,7 @@ export default function About() {
         <div>
             <div className="fixed w-full z-[25] h-[30vh] md:h-[40vh]">
                 <Picture
-                    url="/about/banner-about-us.webp"
+                    url="https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842499/oleodinamica/banner_about_us_c2bb253364.webp"
                     alt="Banner Quienes Somos"
                     style="w-full h-full object-cover object-center"
                 />
@@ -32,7 +32,7 @@ export default function About() {
                         <div className="mt-2 md:mt-6 grid md:grid-cols-2 gap-6">
                             <div>
                                 <Picture
-                                    url="/about/team.webp"
+                                    url="https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842497/oleodinamica/team_ca0aa8020a.webp"
                                     alt="Imagen Nuestro Equipo"
                                     style="object-contain w-full h-full"
                                 />
@@ -52,7 +52,7 @@ export default function About() {
                             <Community />
                             <div>
                                 <Picture
-                                    url="/about/community.webp"
+                                    url="https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842501/oleodinamica/community_3ee5e39c8b.webp"
                                     alt="Imagen Compromiso con la Comunidad"
                                     style="object-contain w-full h-full"
                                 />

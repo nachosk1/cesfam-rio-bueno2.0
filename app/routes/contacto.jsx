@@ -16,7 +16,7 @@ export default function Contact() {
                     </p>
                     <div className="lg:absolute right-0 top-0">
                         <Picture
-                            url={'/contact/contact.webp'}
+                            url={'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842648/oleodinamica/contact_628d3e2199.webp'}
                             alt="imagen contacto"
                             style="object-cover w-[500px]"
                         />

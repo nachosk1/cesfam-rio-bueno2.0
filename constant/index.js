@@ -14,14 +14,20 @@ export const footerLinks = [
             { title: 'Agendar Horas', url: '/solicitar-hora' },
             { title: 'Especialidades', url: '/especialidades' },
             { title: 'Programa de Salud', url: '/programa-de-salud' },
-            { title: 'Información de Vacunación', url: '/informacion-de-vacunacion' },
+            {
+                title: 'Información de Vacunación',
+                url: '/informacion-de-vacunacion',
+            },
         ],
     },
     {
         title: 'Atención al paciente',
         links: [
             { title: 'Contacto', url: '/contacto' },
-            { title: 'Derechos y Deberes del Paciente', url: '/derechos-y-deberes-del-paciente' },
+            {
+                title: 'Derechos y Deberes del Paciente',
+                url: '/derechos-y-deberes-del-paciente',
+            },
             { title: 'Preguntas Frecuentes', url: '/preguntas-frecuentes' },
             { title: 'Política de Privacidad', url: '/politica-de-privacidad' },
         ],
@@ -30,7 +36,10 @@ export const footerLinks = [
         title: 'Recursos',
         links: [
             { title: 'Noticias y Eventos', url: '/noticias-y-eventos' },
-            { title: 'Enlaces a Servicios de Emergencias', url: '/enlaces-a-servicios-de-emergencias' },
+            {
+                title: 'Enlaces a Servicios de Emergencias',
+                url: '/enlaces-a-servicios-de-emergencias',
+            },
         ],
     },
 ];
@@ -61,25 +70,25 @@ export const navLinks = [
 export const imagesBanner = [
     {
         id: 1,
-        image: '/banner/banner-1.webp',
+        image: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713841951/oleodinamica/banner_1_81196ee496.png',
     },
     {
         id: 2,
-        image: '/banner/banner-2.webp',
+        image: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713841823/oleodinamica/banner_2_c87b2959bc.webp',
     },
     {
         id: 3,
-        image: '/banner/banner-3.webp',
+        image: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842063/oleodinamica/banner_3_3ab852fa9f.jpg',
     },
     {
         id: 4,
-        image: '/banner/banner-4.webp',
+        image: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713841904/oleodinamica/banner_4_50f419a268.jpg',
     },
 ];
 
 export const clinic = [
     {
-        src: '/posta/cesfam-rio-bueno.webp',
+        src: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842285/oleodinamica/cesfam_rio_bueno_748b8da584.webp',
         name: 'Cesfam Río Bueno',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -93,7 +102,7 @@ export const clinic = [
         phone: '(64) 234 4550',
     },
     {
-        src: '/posta/posta-carimallin.webp',
+        src: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842299/oleodinamica/posta_carimallin_e3c5e88246.webp',
         name: 'Posta Carimallin',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -107,7 +116,7 @@ export const clinic = [
         phone: '+56 9 9594 9197',
     },
     {
-        src: '/posta/posta-cayurruca.webp',
+        src: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842329/oleodinamica/posta_cayurruca_c9375124e5.webp',
         name: 'Posta Cayurruca',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -121,7 +130,7 @@ export const clinic = [
         phone: '+56 44 244 1069',
     },
     {
-        src: '/posta/posta-crucero.webp',
+        src: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842328/oleodinamica/posta_crucero_b64f0f97d2.webp',
         name: 'Posta Crucero',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -135,7 +144,7 @@ export const clinic = [
         phone: '+56 44 244 1072',
     },
     {
-        src: '/posta/posta-futahuente.webp',
+        src: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842328/oleodinamica/posta_futahuente_628d1b4f81.webp',
         name: 'Posta Futahuente',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -149,7 +158,7 @@ export const clinic = [
         phone: '+56 44 244 1067',
     },
     {
-        src: '/posta/posta-trapi.webp',
+        src: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842330/oleodinamica/posta_trapi_a50a760017.webp',
         name: 'Posta Trapi',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -163,7 +172,7 @@ export const clinic = [
         phone: '+56 44 244 1071',
     },
     {
-        src: '/posta/posta-vivanco.webp',
+        src: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842328/oleodinamica/posta_vivanco_e3c9d4ab36.webp',
         name: 'Posta Vivanco',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -177,7 +186,7 @@ export const clinic = [
         phone: '+56 44 244 1068',
     },
     {
-        src: '/posta/posta-mantilhue.webp',
+        src: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842329/oleodinamica/posta_mantilhue_00f0d4bb51.webp',
         name: 'Posta Mantilhue',
         week: '08:00 a 17:00',
         thursday: '08:00 a 16:00',
@@ -237,7 +246,7 @@ export const infoBenefit = [
             'Consulta y consejería de salud mental.',
             'Vacunación.',
         ],
-        image: '/dependencies/children.webp',
+        image: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842720/oleodinamica/children_13ecb2fdf1.webp',
     },
     {
         title: 'Salud de adolescentes',
@@ -255,7 +264,7 @@ export const infoBenefit = [
             'Programa Nacional de Alimentación Complementaria.',
             'Atención a domicilio.',
         ],
-        image: '/dependencies/teen.webp',
+        image: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842715/oleodinamica/teen_be06bae1a2.webp',
     },
     {
         title: 'Salud de mujer',
@@ -270,7 +279,7 @@ export const infoBenefit = [
             'Consulta morbilidad ginecológica.',
             'Consulta nutricional.',
         ],
-        image: '/dependencies/women.webp',
+        image: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842711/oleodinamica/women_84d92d5672.webp',
     },
     {
         title: 'Salud de adultos y adultas',
@@ -285,7 +294,7 @@ export const infoBenefit = [
             'Atención a domicilio.',
             'Atención a podología a pacientes con diabetes mellitus.',
         ],
-        image: '/dependencies/adults.webp',
+        image: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842718/oleodinamica/adults_7d52eb7d57.webp',
     },
     {
         title: 'Salud de adultos mayores',
@@ -301,7 +310,7 @@ export const infoBenefit = [
             'Vacunación anti influenza.',
             'Atención a domicilio.',
         ],
-        image: '/dependencies/older-adults.webp',
+        image: 'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842722/oleodinamica/older_adults_e6725a1c76.webp',
     },
 ];
 

@@ -26,7 +26,7 @@ export default function SectionOirs() {
             </div>
             <div className="order-1 md:order-2">
                 <Picture
-                    url={'/home/image-oirs.webp'}
+                    url={'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842859/oleodinamica/image_oirs_78eaa74bdf.webp'}
                     alt="Oficina de Información, Reclamos y Sugerencias"
                     style="w-full"
                 />

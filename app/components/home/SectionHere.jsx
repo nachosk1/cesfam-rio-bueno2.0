@@ -32,7 +32,7 @@ export function ImageHere() {
     return (
         <div className="flex justify-center">
             <Picture
-                url={'/home/image-here.webp'}
+                url={'https://res.cloudinary.com/f6bac5e4d005a4451cd78931/image/upload/v1713842873/oleodinamica/image_here_e68c100c04.webp'}
                 alt="Imagen donde quieres ir"
                 style="w-[300px] sm:w-[400px] xl:w-full"
             />
